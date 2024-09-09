@@ -48,7 +48,7 @@ Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tune
 
 **Features:**
 
-  **Dynamic Sand Cell:**
+  **Result After Parsing:**
   
   ![image](https://github.com/user-attachments/assets/5582883a-eac1-4cae-bae1-d388cef04758)
 
