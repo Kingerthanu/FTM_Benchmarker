@@ -8,7 +8,7 @@ Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tune
   Before Running The Program 3 Specific Things Need To Be Done To Ensure Valid Benchmarking These Are: <br>
     &nbsp;1.) Provide fine_tune_id On Line 263. <br>
     &nbsp;2.) Provide An openai.api_key On Line 6. <br>
-    &nbsp;3.) Provide A .json File In Which Follows The Style-Guideline (**Shown Below**) <br>
+    &nbsp;3.) Provide A .json File In Which Follows The Style-Guideline (**Shown Below**), Filling In "question" And "expected_answer" For Each Question In Questions <br>
 
   The Stylization Of The Benchmarks Should Be As Follows, Provided In A .json:
 
