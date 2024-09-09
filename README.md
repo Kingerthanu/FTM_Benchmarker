@@ -5,11 +5,10 @@ Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tune
 <img src="https://github.com/user-attachments/assets/c0ddb715-8ee3-4baf-b7bd-d0e904143eaf" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/c0ddb715-8ee3-4baf-b7bd-d0e904143eaf" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/c0ddb715-8ee3-4baf-b7bd-d0e904143eaf" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/c0ddb715-8ee3-4baf-b7bd-d0e904143eaf" alt="Cornstarch <3" width="55" height="49">
 
 **The Breakdown:**
-  Before Running The Program 3 Specific Things Need To Be Done To Ensure Valid Benchmarking These Are:
-  
-    1.) Provide fine_tune_id On Line 263.
-    2.) Provide An openai.api_key On Line 6.
-    3.) Provide A .json File In Which Follows The Style-Guideline (**Shown Below**)
+  Before Running The Program 3 Specific Things Need To Be Done To Ensure Valid Benchmarking These Are: <br>
+    1.) Provide fine_tune_id On Line 263. <br>
+    2.) Provide An openai.api_key On Line 6. <br>
+    3.) Provide A .json File In Which Follows The Style-Guideline (**Shown Below**) <br>
   
 
 <img src="https://github.com/user-attachments/assets/f6bece3c-7e19-44d0-9b24-426cb4e081c0" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/f6bece3c-7e19-44d0-9b24-426cb4e081c0" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/f6bece3c-7e19-44d0-9b24-426cb4e081c0" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/f6bece3c-7e19-44d0-9b24-426cb4e081c0" alt="Cornstarch <3" width="55" height="49">
