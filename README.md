@@ -15,15 +15,15 @@ Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tune
     # You Don't Need "given_answer", "differences" or "similarity" As Will Be Generated During Runtime
     "questions": [
           {
-            "question": "____",
-            "expected_answer": "____",
+            "question": "YOUR QUESTION",
+            "expected_answer": "YOUR EXPECTED ANSWER (WHAT YOU WANT THE FINE-TUNED MODEL TO SAY)",
             "given_answer": "____",
             "similarity": ____,
             "differences": ____
           },
           {
-            "question": "____",
-            "expected_answer": "____",
+            "question": "YOUR QUESTION",
+            "expected_answer": "YOUR EXPECTED ANSWER (WHAT YOU WANT THE FINE-TUNED MODEL TO SAY)",
             "given_answer": "____",
             "similarity": ____,
             "differences": ____
