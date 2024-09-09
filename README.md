@@ -1,4 +1,4 @@
-# CPP_FallingSand
+# FTM_Benchmarker
 Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tuned Model ID To Create A Client Session. With Provided Unit-Test Questions With Expected Answers For The Fine-Tuned Model To Give, We Will Compare These Expected Answers With The Answers Actually Given By Our Fine-Tuned openai Model And Get A Percentage Similarity Score Between The Two Answers By Asking Another openai Session How Semantically, And Theoretically Similpar The Two Solutions Are. This Gives Us A Good Guage On The Fine-Tuned Model's Capability In Answering Problems Related To It's Field Of Expertise.
 
 ----------------------------------------------
