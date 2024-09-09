@@ -30,7 +30,7 @@ Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tune
               "differences": ____
             },
           ]
-      }
+    }
 
   After The 3 Preliminary Tasks Are Complete, You Can Run The Script. 
 
