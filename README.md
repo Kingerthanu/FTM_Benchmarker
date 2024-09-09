@@ -6,6 +6,7 @@ Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tune
 
 **The Breakdown:**
   Before Running The Program 3 Specific Things Need To Be Done To Ensure Valid Benchmarking These Are:
+  
     1.) Provide fine_tune_id On Line 263.
     2.) Provide An openai.api_key On Line 6.
     3.) Provide A .json File In Which Follows The Style-Guideline (**Shown Below**)
