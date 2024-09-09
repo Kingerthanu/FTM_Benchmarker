@@ -50,8 +50,7 @@ Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tune
 
   **Dynamic Sand Cell:**
   
-  ![DEMO_SAND-ezgif com-video-to-gif-converter](https://github.com/Kingerthanu/CPP_FallingSand/assets/76754592/b1678a97-1f79-4b0b-aa31-2ce74fe05780)
-
+  ![image](https://github.com/user-attachments/assets/5582883a-eac1-4cae-bae1-d388cef04758)
 
 
 <img src="https://github.com/user-attachments/assets/2b421925-ca04-42d5-979a-8f7eca4061a1" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/2b421925-ca04-42d5-979a-8f7eca4061a1" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/2b421925-ca04-42d5-979a-8f7eca4061a1" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/2b421925-ca04-42d5-979a-8f7eca4061a1" alt="Cornstarch <3" width="55" height="49">
