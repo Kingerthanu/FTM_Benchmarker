@@ -30,6 +30,12 @@ Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tune
           },
         ]
 
+  After The 3 Preliminary Tasks Are Complete, You Can Run The Script. 
+
+  When Running The Script We Will Start By Initially Finding The Actual Model ID Associated With The Fine-Tuned Model ID We Are Provided By openai When Fine-Tuning (**fine_tune_id**). If We Provided A Valid Fine-Tuned ID, We Will Then Dump The Contents Of Our "questions" (Benchmarks) To Be Done Out Into A Struct. To Then Evaluate Each "question" In Our Pulled From .json We Will Use Multi-Threading. This Is Achieved In **evaluate_benchmark(...)**; We Will Send Off A Worker Thread To Process An Individual Benchmarking Question Entry, This Allows Us To Process Many Benchmarks In Paralell Instead Of Sequentially Processing Questions.
+
+  In The Worker Function (**process_question(...)**), It Will Be Given An Individual Benchmark And In Each One Of These, We Will Have A "question" And "expected_answer". Initially We Will Ask Our Fine-Tuned Model Our Question, Getting It's Response. From This Fine-Tuned Model's Response, We Will Then Compare It To The Solution We Expected To Get Thats Provided in "expected_answer". Using openai Again, We Ask The ChatGPT-4 Model To Compare And Give A Similarity Score Between These Two Answers Based Upon Theoretical And Semantic Relations--This Can Allow Us To Quickly Compare Our Differing Solutions And Recommend Changes To Our Model If Lacking In A Specific Subtopic In The Fine-Tuned Model's Informational Knowledge.
+
 <img src="https://github.com/user-attachments/assets/f6bece3c-7e19-44d0-9b24-426cb4e081c0" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/f6bece3c-7e19-44d0-9b24-426cb4e081c0" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/f6bece3c-7e19-44d0-9b24-426cb4e081c0" alt="Cornstarch <3" width="55" height="49"> <img src="https://github.com/user-attachments/assets/f6bece3c-7e19-44d0-9b24-426cb4e081c0" alt="Cornstarch <3" width="55" height="49">
 
 ----------------------------------------------
