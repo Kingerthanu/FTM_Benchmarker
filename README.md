@@ -13,22 +13,24 @@ Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tune
   The Stylization Of The Benchmarks Should Be As Follows, Provided In A .json:
 
     # You Don't Need "given_answer", "differences" or "similarity" As Will Be Generated During Runtime
-    "questions": [
-          {
-            "question": "YOUR QUESTION",
-            "expected_answer": "YOUR EXPECTED ANSWER (WHAT YOU WANT THE FINE-TUNED MODEL TO SAY)",
-            "given_answer": "____",
-            "similarity": ____,
-            "differences": ____
-          },
-          {
-            "question": "YOUR QUESTION",
-            "expected_answer": "YOUR EXPECTED ANSWER (WHAT YOU WANT THE FINE-TUNED MODEL TO SAY)",
-            "given_answer": "____",
-            "similarity": ____,
-            "differences": ____
-          },
-        ]
+    {
+      "questions": [
+            {
+              "question": "YOUR QUESTION",
+              "expected_answer": "YOUR EXPECTED ANSWER (WHAT YOU WANT THE FINE-TUNED MODEL TO SAY)",
+              "given_answer": "____",
+              "similarity": ____,
+              "differences": ____
+            },
+            {
+              "question": "YOUR QUESTION",
+              "expected_answer": "YOUR EXPECTED ANSWER (WHAT YOU WANT THE FINE-TUNED MODEL TO SAY)",
+              "given_answer": "____",
+              "similarity": ____,
+              "differences": ____
+            },
+          ]
+      }
 
   After The 3 Preliminary Tasks Are Complete, You Can Run The Script. 
 
