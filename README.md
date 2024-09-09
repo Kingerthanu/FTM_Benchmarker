@@ -12,6 +12,7 @@ Python Script In Which Will Use A Provided openai API Key As Well As A Fine-Tune
 
   The Stylization Of The Benchmarks Should Be As Follows, Provided In A .json:
 
+    # You Don't Need "given_answer", "differences" or "similarity" As Will Be Generated During Runtime
     "questions": [
           {
             "question": "____",
