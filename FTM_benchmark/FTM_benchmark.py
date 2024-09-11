@@ -45,7 +45,7 @@ def get_ai_similarity_score(expected_answer: str, given_answer: str) -> tuple:
   try:
     # Request AI to evaluate similarity and provide a reason
     response = openai.chat.completions.create(
-      model="gpt-4",
+      model="gpt-4o-mini-2024-07-18",
       messages=[
         {"role": "system", "content": "You are an expert at comparing technical answers in computer science and providing similarity scores."},
         {"role": "user", "content": prompt}
